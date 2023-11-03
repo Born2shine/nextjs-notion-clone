@@ -1,8 +1,7 @@
 "use client";
 
-// import  Editor  from "@/components/editor";
-import { Cover } from "../../../../../components/cover";
-import { Toolbar } from "../../../../../components/toolbar";
+import { Cover } from "@/components/cover";
+import { Toolbar } from "@/components/toolbar";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useMemo, useState } from "react";
 import { api } from "@/convex/_generated/api";
